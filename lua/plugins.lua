@@ -48,6 +48,7 @@ return require('packer').startup(function(use)
     use { 'ahmedkhalf/project.nvim', config = [[require('config.project')]], requires = { 'nvim-telescope/telescope.nvim' } }
     use { 'nvim-pack/nvim-spectre', config = [[require('config.nvim-spectre')]], requires = { 'nvim-lua/plenary.nvim' } }
     use { 'gpanders/editorconfig.nvim' }
+    use { 'jose-elias-alvarez/null-ls.nvim', config=[[require('config.null-ls')]] }
 
     -- Autocompletion
     use { 'williamboman/mason.nvim' }
